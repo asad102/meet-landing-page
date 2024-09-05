@@ -599,6 +599,10 @@ video {
   height: 56px;
 }
 
+.h-64 {
+  height: 16rem;
+}
+
 .w-\[56px\] {
   width: 56px;
 }
@@ -685,6 +689,14 @@ video {
 
 .bg-cover {
   background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
 }
 
 .px-10 {

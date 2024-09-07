@@ -700,7 +700,7 @@ video {
 }
 
 .bg-mobile {
-  background-image: linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url('/assets/img/mobile/image-footer.jpg');
+  background-image: linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url('./assets/img/mobile/image-footer.jpg');
 }
 
 .bg-cover {
@@ -835,7 +835,7 @@ video {
   }
 
   .sm\:bg-tablet {
-    background-image: linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url('/assets/img/tablet/image-footer.jpg');
+    background-image: linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url('./assets/img/tablet/image-footer.jpg');
   }
 }
 
@@ -904,6 +904,6 @@ video {
   }
 
   .lg\:bg-desktop {
-    background-image: linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url('/assets/img/desktop/image-footer.jpg');
+    background-image: linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url('./assets/img/desktop/image-footer.jpg');
   }
 }

@@ -12,9 +12,9 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'mobile': "linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/mobile/image-footer.jpg')",
-        'tablet': "linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/tablet/image-footer.jpg')",
-        'desktop': "linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/img/desktop/image-footer.jpg')",
+        'mobile': "linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url('/assets/img/mobile/image-footer.jpg')",
+        'tablet': "linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url('/assets/img/tablet/image-footer.jpg')",
+        'desktop': "linear-gradient(rgba(77, 150, 169, 0.9), rgba(77, 150, 169, 0.9)), url('/assets/img/desktop/image-footer.jpg')",
       }
     },
   },

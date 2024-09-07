@@ -6,7 +6,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <title>Frontend Mentor | Meet landing page</title>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <script>
 
@@ -37,9 +37,13 @@
       </nav>
     </header>
     <section class="main-content flex flex-col gap-16 px-20 pb-[72px] pt-14">
-      <div class="number w-[56px] h-[56px] mx-auto -mt-4 flex items-center justify-center border border-[#D1D1DF]  text-[#87879D] rounded-full  ">
-       <span class="font-medium">01</span> 
+      <div class="flex flex-col items-center z-50 relative top-[25px]">
+        <div class="w-px bg-[#4D96A9]  h-20"></div>
+        <div class="number w-[56px] h-[56px] flex items-center justify-center border border-[#D1D1DF]  text-[#87879D] rounded-full  ">
+          <span class="font-medium">01</span> 
+        </div>
       </div>
+
       <div class="image-college grid sm:grid-cols-4 lg:gap-8 md:gap-6 gap-4 grid-cols-2">
         <img class="rounded-lg" src="./assets/img/desktop/image-woman-in-videocall.jpg" alt="videocall">
         <img class="rounded-lg" src="./assets/img/desktop/image-women-videochatting.jpg" alt="videochatting">
@@ -54,12 +58,15 @@
         <p class="lg:w-[544px] lg:mx-auto font-medium text-lg leading-[150%] text-[#87879D]">Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
       </div>
     </section>
-    <footer class="relative">
-      <div class="number w-[56px] h-[56px] mx-auto -mt-4 mb-10 flex items-center justify-center border border-[#D1D1DF]  text-[#87879D] rounded-full  ">
-       <span class="font-medium">02</span> 
+    <footer class="">
+      <div class="flex flex-col items-center z-50 relative top-[25px]">
+        <div class="w-px bg-[#4D96A9]  h-20"></div>
+        <div class="w-[56px] h-[56px] flex items-center justify-center border bg-[#fff] border-[#D1D1DF]  text-[#87879D] rounded-full ">
+          <span class="font-medium">02</span> 
+        </div>
       </div>
-      <section class="w-full text-white  lg:bg-desktop sm:bg-tablet bg-mobile bg-cover  flex md:flex-row flex-col justify-between md:items-start items-center md:text-start text-center  gap-8 px-20 py-28 bg-purple-300">
-          <h3 class="max-w-[355px] w-full font-black text-4xl">Experience more together</h3>
+      <section class="w-full text-white  lg:bg-desktop sm:bg-tablet bg-mobile bg-cover  flex md:flex-row flex-col justify-around md:items-start items-center md:text-start text-center  gap-8 px-20 py-28 bg-purple-300">
+          <h3 class="max-w-[455px] w-full font-black text-4xl">Experience more together</h3>
           <p class="max-w-[355px] w-full font-medium text-lg">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
           <button class="bg-[#2c1347] text-[#fff] px-10 py-4 rounded-full ">Download v1.3</button>
       </section>

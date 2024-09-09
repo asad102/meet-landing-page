@@ -6,77 +6,68 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   <title>Frontend Mentor | Meet landing page</title>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<script>
-
-</script>
-<body>
-  <main class="font-redhat">
-    <header class="">
-      <nav>
-        <div class="logo flex justify-center items-center px-20 pt-16 pb-0">
-          <a href="#"><img src="./assets/img/logo.svg"></a>
+<body class="font-redhat bg-white">
+    <nav class="px-20 md:pt-20 pt-12 mb-2">
+      <a href="#"><img class="w-[118px] h-[28px] mx-auto" src="./assets/img/logo.svg" alt="logo"></a>
+    </nav>
+    <header class="hero relative w-full overflow-hidden flex flex-col md:flex-col lg:flex-row justify-between items-center  py-14">
+        <div class="smsc -mr-6 -ml-6 lg:hidden block">
+          <img src="/assets/img/tablet/image-hero.png" alt="smsc">
         </div>
-        <div class="hero flex flex-col md:flex-col lg:flex-row justify-between items-center  py-14 ">
-          <div class="faces-left flex items-start justify-start order-1 lg:order-1">
-            <img class="w-full lg:w-auto" src="./assets/img/desktop/image-hero-left.png">
-          </div>
-          <div class="header-text-content  sm:w-[448px] lg:mt-0 mt-8 w-full flex flex-col  order-3 lg:order-2  justify-center items-center gap-8  text-center">
-            <h1 class="font-black leading-[110%] text-6xl">Group Chat for Everyone</h1>
-            <p class="font-medium text-lg ">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
-            <div class="hero-btn flex md:flex-row flex-col gap-4">
-              <button class="rounded-full bg-[#4D96A9] text-white px-10 py-4">Download v1.3</button>
-              <button class="rounded-full bg-[#855FB1] text-white px-10 py-4">What is it?</button>
-            </div>
-          </div>
-          <div class="faces-right flex items-start justify-start  order-2 lg:order-3">
-            <img class=" w-full lg:w-auto " src="./assets/img/desktop/image-hero-right.png">
+        <div class="faces-left -ml-6 hidden lg:flex">
+          <img class="max-w-[394px]" src="./assets/img/desktop/image-hero-left.png" alt="img-left">
+        </div>
+        <div class="header-text-content  max-w-[448px] lg:mt-0 mt-8 flex flex-col  justify-center items-center md:gap-8 gap-6  text-center">
+          <h1 class="text-preset-1 text-slate-900">Group Chat for Everyone</h1>
+          <p class="text-preset-4 text-slate-600">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+          <div class="hero-btn flex md:flex-row flex-col gap-4 text-preset-5 text-white">
+            <button class="rounded-full bg-cyan-600   px-10 py-4">Download v1.3</button>
+            <button class="rounded-full bg-purple-600 px-10 py-4">What is it?</button>
           </div>
         </div>
-      </nav>
+        <div class="faces-right -mr-6  hidden lg:flex">
+          <img class=" max-w-[394px] " src="./assets/img/desktop/image-hero-right.png" alt="img-right">
+        </div>
     </header>
-    <section class="main-content flex flex-col gap-16 px-20 pb-[72px] pt-14">
-      <div class="flex flex-col items-center z-50 relative top-[25px]">
-        <div class="w-px bg-[#4D96A9]  h-20"></div>
-        <div class="number w-[56px] h-[56px] flex items-center justify-center border border-[#D1D1DF]  text-[#87879D] rounded-full  ">
-          <span class="font-medium">01</span> 
+    <main class="flex flex-col  gap-16 px-20 pt-14 pb-[72px]">
+      <div class="number flex flex-col items-center relative top-7">
+        <div class="w-px bg-slate-300  h-20"></div>
+        <div class="number w-[56px] h-[56px] flex items-center justify-center border border-slate-300  rounded-full  ">
+          <span class="text-preset-5 text-slate-600">01</span> 
         </div>
       </div>
-
-      <div class="image-college grid sm:grid-cols-4 lg:gap-8 md:gap-6 gap-4 grid-cols-2">
-        <img class="rounded-lg" src="./assets/img/desktop/image-woman-in-videocall.jpg" alt="videocall">
-        <img class="rounded-lg" src="./assets/img/desktop/image-women-videochatting.jpg" alt="videochatting">
-        <img class="rounded-lg" src="./assets/img/desktop/image-men-in-meeting.jpg" alt="meeting">
-        <img class="rounded-lg" src="./assets/img/desktop/image-man-texting.jpg" alt="texting">
+      <div class="image-college grid md:grid-cols-4 grid-cols-2  md:gap-8 sm:gap-6 gap-4 ">
+        <img class="rounded-lg max-w-64 max-h-64 w-full h-full  lg:h-64 md:h-40 xs:h-36 object-cover" src="./assets/img/desktop/image-woman-in-videocall.jpg" alt="videocall">
+        <img class="rounded-lg max-w-64 max-h-64 w-full h-full  lg:h-64 md:h-40 xs:h-36 object-cover" src="./assets/img/desktop/image-women-videochatting.jpg" alt="videochatting">
+        <img class="rounded-lg max-w-64 max-h-64 w-full h-full  lg:h-64 md:h-40 xs:h-36 object-cover" src="./assets/img/desktop/image-men-in-meeting.jpg" alt="meeting">
+        <img class="rounded-lg max-w-64 max-h-64 w-full h-full  lg:h-64 md:h-40 xs:h-36 object-cover" src="./assets/img/desktop/image-man-texting.jpg" alt="texting">
       </div>
-      <div class="main-text-content  flex flex-col gap-8 items-center justify-center text-center ">
+      <div class="main-text-content lg:max-w-[544px] w-full mx-auto  flex flex-col gap-8 items-center justify-center text-center ">
         <div class="img-title lg:w-[445px] lg:mx-auto flex flex-col gap-4">
-          <span class="text-base font-black text-[#4D96A9] uppercase tracking-[4px]">Built for modern use</span>
-          <h2 class="text-[#28283D] font-black text-4xl">Smarter meetings, all in one place</h2>
+          <span class="text-preset-3 uppercase text-cyan-600">Built for modern use</span>
+          <h2 class="text-preset-2 text-slate-900">Smarter meetings, all in one place</h2>
         </div>
-        <p class="lg:w-[544px] lg:mx-auto font-medium text-lg leading-[150%] text-[#87879D]">Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
+        <p class="text-preset-4 text-slate-600 lg:w-[544px] lg:mx-auto">Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
       </div>
-    </section>
-    <footer class="">
-      <div class="flex flex-col items-center z-50 relative top-[25px]">
-        <div class="w-px bg-[#4D96A9]  h-20"></div>
-        <div class="w-[56px] h-[56px] flex items-center justify-center border bg-[#fff] border-[#D1D1DF]  text-[#87879D] rounded-full ">
-          <span class="font-medium">02</span> 
+    </main>
+
+    <footer class="text-white">
+      <div class="number flex flex-col items-center  relative z-50  top-7">
+        <div class="w-px bg-slate-300  h-20"></div>
+        <div class="number w-[56px] h-[56px] bg-white flex items-center justify-center border border-slate-300  rounded-full  ">
+          <span class="text-preset-5 text-slate-600">02</span> 
         </div>
       </div>
-      <section class="bg-[linear-gradient(rgba(77,150,169,0.9),rgba(77,150,169,0.9)),url('/assets/img/mobile/image-footer.jpg')] 
-      md:bg-[linear-gradient(rgba(77,150,169,0.9),rgba(77,150,169,0.9)),url('/assets/img/tablet/image-footer.jpg')] 
-      lg:bg-[linear-gradient(rgba(77,150,169,0.9),rgba(77,150,169,0.9)),url('/assets/img/desktop/image-footer.jpg')] 
-      
-      w-full text-white   bg-cover  flex md:flex-row flex-col justify-around md:items-start items-center md:text-start text-center  gap-8 px-20 py-28 bg-purple-300">
-          <h3 class="max-w-[455px] w-full font-black text-4xl">Experience more together</h3>
-          <p class="max-w-[355px] w-full font-medium text-lg">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
-          <button class="bg-[#2c1347] text-[#fff] px-10 py-4 rounded-full ">Download v1.3</button>
-      </section>
+      <div style="background:linear-gradient(rgba(0, 128, 128, 0.9), rgba(0, 204, 204, 0.9)),  url('/assets/img/desktop/image-footer.jpg'); background-size: cover; background-position: center;" 
+          class="footer-content flex md:flex-row flex-col justify-around md:items-start items-center md:text-start text-center  gap-8 px-20 py-28" >
+        
+        <h3 class="text-preset-2 lg:w-[455px] w-full">Experience more together</h3>
+        <p class="text-preset-4 lg:w-[355px] w-full">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
+        <button class="text-preset-5 bg-purple-600 px-10 py-4 rounded-full ">Download v1.3</button>
+      </div>
     </footer>
 
-  </main>
-  <!--  -->
 </body>
 </html>

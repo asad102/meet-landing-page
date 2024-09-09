@@ -32,8 +32,13 @@ Users should be able to:
 ## desktop
 ![./assets/img/Screenshot.png](./assets/img/Screenshot.png)
 
+## tablet
+![./assets/img/Screenshottablet.png](./assets/img/Screenshottablet.png)
+
 ## mobiles
 ![./assets/img/Screenshotmobile.png](./assets/img/Screenshotmobile.png)
+
+
 
 ### Links
 

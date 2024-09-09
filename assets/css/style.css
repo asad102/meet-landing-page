@@ -958,10 +958,6 @@ video {
     flex-direction: column;
   }
 
-  .md\:items-start {
-    align-items: flex-start;
-  }
-
   .md\:gap-8 {
     gap: 2rem;
   }
@@ -978,10 +974,6 @@ video {
 
   .md\:pt-20 {
     padding-top: 5rem;
-  }
-
-  .md\:text-start {
-    text-align: start;
   }
 }
 
